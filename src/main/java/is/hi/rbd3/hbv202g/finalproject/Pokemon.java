@@ -6,6 +6,7 @@ abstract class Pokemon {
 
     private int life;
 
+
     public Pokemon(String name, int life) {
         this.name = name;
         this.life = life;
@@ -27,10 +28,10 @@ abstract class Pokemon {
         return this.life;
     }
 
-    public abstract void closeAttack();
+    public abstract int closeAttack();
 
-    public abstract void specialAttack();
+    public abstract int  specialAttack();
 
-    public abstract void farAttack();
+    public abstract int farAttack();
 
 }
