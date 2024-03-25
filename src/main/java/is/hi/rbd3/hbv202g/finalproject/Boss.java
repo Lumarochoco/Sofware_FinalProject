@@ -12,16 +12,21 @@ public class Boss extends Pokemon{
 
     @Override
     public int closeAttack() {
-        return 0;
+        System.out.println("I'm attacking with my boss close attack, you lose 10 points of life");
+        return -25;
     }
 
     @Override
     public int specialAttack() {
-        return 0;
+
+        System.out.println("I'm attacking with my boss special attack, you lose 45 points of life");
+        return -45;
     }
 
     @Override
     public int farAttack() {
-        return 0;
+
+        System.out.println("I'm attacking with my boss far attack, you lose 10 points of life");
+        return -20;
     }
 }
