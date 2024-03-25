@@ -1,6 +1,6 @@
 package is.hi.rbd3.hbv202g.finalproject;
 
-abstract class Pokemon {
+abstract class Pokemon implements Observer {
 
     private String name;
 
@@ -27,10 +27,10 @@ abstract class Pokemon {
         return this.life;
     }
 
-    public abstract void closeAttack();
+    public abstract int closeAttack();
 
-    public abstract void specialAttack();
+    public abstract int specialAttack();
 
-    public abstract void farAttack();
+    public abstract int farAttack();
 
 }
