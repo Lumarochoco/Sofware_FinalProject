@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c04a81-0f3b-4aff-951e-4ada39775fd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/PokemonTrainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/PokemonTrainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -6,6 +6,7 @@ abstract class Pokemon implements Observer {
 
     private int life;
 
+
     public Pokemon(String name, int life) {
         this.name = name;
         this.life = life;
