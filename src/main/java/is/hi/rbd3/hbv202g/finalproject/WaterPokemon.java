@@ -25,4 +25,10 @@ public class WaterPokemon extends Pokemon {
         return -30;
 
     }
+
+    @Override
+    public void update(int damage) {
+        setLife(damage);
+        System.out.println("Your Pokemon "+this.getName()+" has " + getLife() + "left !");
+    }
 }

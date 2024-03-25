@@ -15,9 +15,9 @@ public class Observable {
     public void detach(Observer observer) {
         observers.remove(observer);
     }
-    public void notifyObservers() {
+    public void notifyObservers(int damage) {
         for (Observer observer : observers) {
-            observer.update();
+            observer.update(damage);
         }
     }
 }

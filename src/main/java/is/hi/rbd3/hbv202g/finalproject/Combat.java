@@ -9,12 +9,13 @@ public class Combat extends Observable {
     private Pokemon boss;
 
     public Combat (Pokemon playerPokemon, Pokemon boss){
+        super();
         this.playerPokemon = playerPokemon;
         this.boss = boss;
     }
 
     public void playercloseAttack(){
-        boss.setLife(boss.getLife()- (int) Math.ceil(playerPokemon.closeAttack()*Math.random()));
+        notifyObservers(boss.getLife()- (int) Math.ceil(playerPokemon.closeAttack()*Math.random()));
     }
 
     public void playerfarAttack(){
