@@ -24,4 +24,8 @@ public class GrassPokemon extends Pokemon {
         return -8;
     }
 
+    @Override
+    public void update() {
+        System.out.println("Your Pokemon "+this.getName()+" has " + getLife() + " HP left !");
+    }
 }

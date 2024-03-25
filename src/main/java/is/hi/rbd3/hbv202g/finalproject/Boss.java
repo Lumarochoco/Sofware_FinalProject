@@ -6,8 +6,8 @@ public class Boss extends Pokemon{
     }
 
     @Override
-    public void update(int damage) {
-
+    public void update() {
+        System.out.println("The boss "+this.getName()+" has " + getLife() + " HP left !");
     }
 
     @Override

@@ -27,8 +27,7 @@ public class WaterPokemon extends Pokemon {
     }
 
     @Override
-    public void update(int damage) {
-        setLife(damage);
-        System.out.println("Your Pokemon "+this.getName()+" has " + getLife() + "left !");
+    public void update() {
+        System.out.println("Your Pokemon "+this.getName()+" has " + getLife() + " HP left !");
     }
 }

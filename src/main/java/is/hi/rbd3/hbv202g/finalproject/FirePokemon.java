@@ -22,4 +22,9 @@ public class FirePokemon extends Pokemon {
         System.out.println("I'm attacking with my fire far attack, you lose 10 points of life");
         return -35;
     }
+
+    @Override
+    public void update() {
+        System.out.println("Your Pokemon "+this.getName()+" has " + getLife() + " HP left !");
+    }
 }
