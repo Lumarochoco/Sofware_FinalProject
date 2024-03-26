@@ -8,21 +8,18 @@ public class WaterPokemon extends Pokemon {
 
     @Override
     public int closeAttack() {
-        System.out.println("I'm attacking with my water close attack, you lose 10 points of life");
-        return -10;
+        return 10;
 
     }
 
     @Override
     public int specialAttack() {
-        System.out.println("I'm attacking with my water special attack, you lose 50 points of life");
-        return -50;
+        return 50;
     }
 
     @Override
     public int farAttack() {
-        System.out.println("I'm attacking with my water far attack, you lose 30 points of life");
-        return -30;
+        return 30;
 
     }
 

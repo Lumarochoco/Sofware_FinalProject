@@ -80,7 +80,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <mainClass>is.hi.hbv202g.finalproject.App</mainClass>
+          <mainClass>is.hi.rbd3.hbv202g.finalproject.App</mainClass>
         </configuration>
       </plugin>
     </plugins>

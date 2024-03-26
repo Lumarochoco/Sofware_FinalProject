@@ -57,15 +57,20 @@ public class App
     public static void startCombat(Pokemon playerPokemon, Boss boss, Combat combat){
 
         boolean start = true;
+        Scanner sc = new Scanner(System.in);
+
         while (start){
             System.out.println("Do you want to start the combat ? (y/n) \n");
-            Scanner sc = new Scanner(System.in);
             String answer = sc.nextLine();
+
+
             if (answer.equals("y")){
+                playerPokemon.setLife(life);
+                boss.setLife(life);
                 combat.match();
 
             }
-            if (answer.equals("n")){
+            else{
                 System.out.println("Maybe another time, see you ! \n");
                 start = false;
             }
