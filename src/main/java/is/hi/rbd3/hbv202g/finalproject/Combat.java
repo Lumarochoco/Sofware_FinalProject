@@ -132,6 +132,7 @@ public class Combat extends Observable {
         System.out.println("The winner is " + getNameWinner()+ "!");
     }
 
+
     public String getNameWinner(){
         if(this.playerPokemon.getLife() <=0){
             return boss.getName();
