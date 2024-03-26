@@ -19,7 +19,13 @@ public class App
 
     }
 
-
+    /**
+     * Creates a pokemon by choosing parameters.
+     * First parameter : name (String)
+     * Second parameter: type (int)
+     * The life's points are automatically assigned at 100 pv (int)
+     * @return pokemon created
+     */
     public static Pokemon creationPokemon(){
         System.out.println("To start the game, you have to create a pokemon with his name and his type \n");
         Scanner sc = new Scanner(System.in);
@@ -54,6 +60,34 @@ public class App
 
     }
 
+    /**
+     * Creates a pokemon.
+     * Only used for testing the logic of this function
+     * @param name
+     * @param type
+     * @return pokemon created
+     */
+    public static Pokemon creationPokemon(String name, int type){
+
+        if (type == 1) {
+            return  new FirePokemon(name, life);
+        }
+        else if (type ==0){
+            return new WaterPokemon(name, life);
+
+        }
+        else {
+            return new GrassPokemon(name, life);
+        }
+
+    }
+
+    /**
+     * Starts the combat between the pokemon and the boss.
+     * @param playerPokemon
+     * @param boss
+     * @param combat
+     */
     public static void startCombat(Pokemon playerPokemon, Boss boss, Combat combat){
 
         boolean start = true;
