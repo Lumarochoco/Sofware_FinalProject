@@ -11,13 +11,16 @@ public class App
     {
 
         Boss boss = new Boss("Mammochon", life );
-        creationPokemon();
+        Pokemon playerPokemon = creationPokemon();
+        Combat combat = new Combat(playerPokemon, boss);
+        startCombat(playerPokemon , boss, combat);
 
 
 
     }
 
-    public static void creationPokemon(){
+
+    public static Pokemon creationPokemon(){
         System.out.println("To start the game, you have to create a pokemon with his name and his type \n");
         Scanner sc = new Scanner(System.in);
         System.out.println("Please write the name of your pokemon\n");
@@ -37,17 +40,40 @@ public class App
 
         if (type == 1) {
             System.out.println("The type of your pokemon is : Fire \n");
-            FirePokemon pokemon = new FirePokemon(name, life);
+            return  new FirePokemon(name, life);
         }
         else if (type ==0){
             System.out.println("The type of your pokemon is : Water \n");
-             WaterPokemon pokemon = new WaterPokemon(name, life);
+            return new WaterPokemon(name, life);
 
         }
-        else if (type == 2){
+        else {
             System.out.println("The type of your pokemon is : Grass \n");
-            GrassPokemon pokemon = new GrassPokemon(name, life);
+            return new GrassPokemon(name, life);
         }
 
     }
+
+    public static void startCombat(Pokemon playerPokemon, Boss boss, Combat combat){
+
+        boolean start = true;
+        while (start){
+            System.out.println("Do you want to start the combat ? (y/n) \n");
+            Scanner sc = new Scanner(System.in);
+            String answer = sc.nextLine();
+            if (answer.equals("y")){
+                combat.match();
+
+            }
+            if (answer.equals("n")){
+                System.out.println("Maybe another time, see you ! \n");
+                start = false;
+            }
+
+
+    }
+
+    }
+
+
 }
