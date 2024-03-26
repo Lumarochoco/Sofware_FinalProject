@@ -12,6 +12,7 @@ abstract class Pokemon implements Observer {
         this.life = life;
     }
 
+
     public String getName() {
         return name;
     }

@@ -6,15 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c04a81-0f3b-4aff-951e-4ada39775fd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Game.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
     "JUnit.CombatTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.finalproject [org.codehaus.mojo:exec-maven-plugin:3.2.0:java].executor": "Run",
@@ -53,7 +52,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is.hi.rbd3.hbv202g.finalproject.App" />
       <module name="finalproject" />
@@ -63,6 +62,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finalproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="is.hi.rbd3.hbv202g.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="is.hi.rbd3.hbv202g.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="is.hi.rbd3.hbv202g.finalproject.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CombatTest" />
       </list>
