@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c04a81-0f3b-4aff-951e-4ada39775fd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/CombatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/CombatTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,7 @@
     "Application.App.executor": "Run",
     "JUnit.CombatTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.finalproject [org.apache.maven.plugins:maven-site-plugin:3.11.0:site].executor": "Run",
     "Maven.finalproject [org.codehaus.mojo:exec-maven-plugin:3.2.0:java].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -53,7 +47,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.CombatTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is.hi.rbd3.hbv202g.finalproject.App" />
       <module name="finalproject" />
@@ -84,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CombatTest" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
