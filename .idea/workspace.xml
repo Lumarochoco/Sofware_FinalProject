@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c04a81-0f3b-4aff-951e-4ada39775fd2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/FirePokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/GrassPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/WaterPokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,7 @@
     "JUnit.CombatTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.finalproject [org.codehaus.mojo:exec-maven-plugin:3.2.0:java].executor": "Run",
+    "Maven.finalproject [site].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
