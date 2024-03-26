@@ -16,8 +16,6 @@ public class Combat extends Observable {
         this.playerPokemon = playerPokemon;
         this.boss = boss;
         this.scanner = new Scanner(System.in);
-
-        match();
     }
 
     public void match(){
@@ -157,5 +155,13 @@ public class Combat extends Observable {
 
     public void setBoss(Pokemon boss) {
         this.boss = boss;
+    }
+
+    public Scanner getScanner() {
+        return scanner;
+    }
+
+    public void setScanner(Scanner scanner) {
+        this.scanner = scanner;
     }
 }
