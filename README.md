@@ -22,15 +22,15 @@ Maven:
 - `mvn test` runs all test cases (i.e. all classes with a name that either starts with `Test` or ends with `Test`,
   `Tests`, or `TestCase`). 
 
-## Running Main method
+## Starting the game 
 
 Maven :
 
-- `mvn exec:java` runs the main methode called `App.main`
+- `mvn exec:java` runs the main methode called `App.main` and starts the game
 
 File : 
 
-- `run` runs the main methode called `App.main`
+- `run.cmd` runs the main methode called `App.main` and starts the game
 
 ## Design
 
