@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1c04a81-0f3b-4aff-951e-4ada39775fd2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/run.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/run.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/is/hi/rbd3/hbv202g/finalproject/AllTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Combat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/is/hi/rbd3/hbv202g/finalproject/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/is/hi/rbd3/hbv202g/finalproject/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/is/hi/rbd3/hbv202g/finalproject/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/is/hi/rbd3/hbv202g/finalproject/Combat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/is/hi/rbd3/hbv202g/finalproject/Combat.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CombatTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.finalproject [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.finalproject [org.codehaus.mojo:exec-maven-plugin:3.2.0:java].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.finalproject [site].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/romai/IdeaProjects/Final_Project/src/site/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "JUnit.AllTests.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.CombatTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.finalproject [compile].executor": "Run",
+    "Maven.finalproject [org.codehaus.mojo:exec-maven-plugin:3.2.0:java].executor": "Run",
+    "Maven.finalproject [site].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/romai/IdeaProjects/Final_Project/src/test/java/is/hi/rbd3/hbv202g/finalproject",
+    "last_opened_file_path": "C:/Users/romai/IdeaProjects/Final_Project/src/site/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\romai\IdeaProjects\Final_Project\src\site\resources" />
@@ -59,8 +70,11 @@
       <recent name="C:\Users\romai\IdeaProjects\Final_Project" />
       <recent name="C:\Users\romai\IdeaProjects\Final_Project\src\site\markdown" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="is.hi.rbd3.hbv202g.finalproject" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AllTests">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="is.hi.rbd3.hbv202g.finalproject.App" />
       <module name="finalproject" />
@@ -70,6 +84,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="finalproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="is.hi.rbd3.hbv202g.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="is.hi.rbd3.hbv202g.finalproject" />
+      <option name="MAIN_CLASS_NAME" value="is.hi.rbd3.hbv202g.finalproject.AllTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllTests" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CombatTest" />

@@ -1,5 +1,6 @@
 package is.hi.rbd3.hbv202g.finalproject;
 
+
 abstract class Pokemon implements Observer {
 
     private String name;

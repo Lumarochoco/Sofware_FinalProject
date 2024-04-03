@@ -2,15 +2,17 @@ package is.hi.rbd3.hbv202g.finalproject;
 
 import java.util.Scanner;
 
-
+/**
+ * Methods related to start the game.
+ */
 
 public class App 
 {
-    private static final int life = 100;
+    private static final int LIFE = 100;
     public static void main( String[] args )
     {
 
-        Boss boss = new Boss("Mammochon", life );
+        Boss boss = new Boss("Mammochon", LIFE);
         Pokemon playerPokemon = creationPokemon();
         Combat combat = new Combat(playerPokemon, boss);
         startCombat(playerPokemon , boss, combat);
@@ -42,20 +44,20 @@ public class App
             type = sc.nextInt();
         }
 
-        System.out.println("The life of your pokemon is : " + life);
+        System.out.println("The life of your pokemon is : " + LIFE);
 
         if (type == 1) {
             System.out.println("The type of your pokemon is : Fire \n");
-            return  new FirePokemon(name, life);
+            return  new FirePokemon(name, LIFE);
         }
         else if (type ==0){
             System.out.println("The type of your pokemon is : Water \n");
-            return new WaterPokemon(name, life);
+            return new WaterPokemon(name, LIFE);
 
         }
         else {
             System.out.println("The type of your pokemon is : Grass \n");
-            return new GrassPokemon(name, life);
+            return new GrassPokemon(name, LIFE);
         }
 
     }
@@ -70,14 +72,14 @@ public class App
     public static Pokemon creationPokemon(String name, int type){
 
         if (type == 1) {
-            return  new FirePokemon(name, life);
+            return  new FirePokemon(name, LIFE);
         }
         else if (type ==0){
-            return new WaterPokemon(name, life);
+            return new WaterPokemon(name, LIFE);
 
         }
         else {
-            return new GrassPokemon(name, life);
+            return new GrassPokemon(name, LIFE);
         }
 
     }
@@ -99,8 +101,8 @@ public class App
 
 
             if (answer.equals("y")){
-                playerPokemon.setLife(life);
-                boss.setLife(life);
+                playerPokemon.setLife(LIFE);
+                boss.setLife(LIFE);
                 combat.match();
 
             }

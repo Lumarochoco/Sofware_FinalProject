@@ -73,11 +73,11 @@ public class Combat extends Observable {
         switch (attack){
             case 1 :
                 System.out.println("Close attack selected");
-                playercloseAttack();
+                playerCloseAttack();
                 break;
             case 2 :
                 System.out.println("Far attack selected");
-                playerfarAttack();
+                playerFarAttack();
                 break;
             case 3 :
                 System.out.println("Special attack selected");
@@ -102,11 +102,11 @@ public class Combat extends Observable {
         switch (attack){
             case 1 :
                 System.out.println("Close attack selected");
-               bosscloseAttack();
+               bossCloseAttack();
                 break;
             case 2 :
                 System.out.println("Far attack selected");
-                bossfarAttack();
+                bossFarAttack();
                 break;
             case 3 :
                 System.out.println("Special attack selected");
@@ -121,7 +121,7 @@ public class Combat extends Observable {
     /**
      * Executes the close attack of the pokemon's player and notifies the observer.
      */
-    public void playercloseAttack(){
+    public void playerCloseAttack(){
         int damage = (int) Math.ceil(playerPokemon.closeAttack()*(Math.random() * 0.9 + 0.1));
         boss.setLife(boss.getLife()- damage);
         System.out.println("Provocated damage : "+damage);
@@ -131,7 +131,7 @@ public class Combat extends Observable {
     /**
      * Executes the far attack of the pokemon's player and notifies the observer.
      */
-    public void playerfarAttack(){
+    public void playerFarAttack(){
         int damage = (int) Math.ceil(playerPokemon.farAttack()*(Math.random() * 0.9 + 0.1));
         boss.setLife(boss.getLife()- damage);
         System.out.println("Provocated damage : "+damage);
@@ -150,7 +150,7 @@ public class Combat extends Observable {
     /**
      * Executes the close attack of the boss and notofies the observer.
      */
-    public void bosscloseAttack(){
+    public void bossCloseAttack(){
         int damage = (int) Math.ceil(boss.closeAttack()*(Math.random() * 0.9 + 0.1));
         playerPokemon.setLife(playerPokemon.getLife()- damage);
         System.out.println("Provocated damage : "+damage);
@@ -160,7 +160,7 @@ public class Combat extends Observable {
     /**
      * Executes the far attack of the boss and notofies the observer.
      */
-    public void bossfarAttack(){
+    public void bossFarAttack(){
         int damage = (int) Math.ceil(boss.farAttack()*(Math.random() * 0.9 + 0.1));
         playerPokemon.setLife(playerPokemon.getLife()- damage);
         System.out.println("Provocated damage : "+damage);
