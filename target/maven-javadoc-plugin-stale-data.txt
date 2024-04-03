@@ -1,0 +1,47 @@
+@options
+@packages
+--class-path
+'C:/Users/romai/IdeaProjects/Final_Project/target/classes;C:/Users/romai/IdeaProjects/Final_Project/target/test-classes;C:/Users/romai/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/romai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-public
+-source
+'21'
+-sourcepath
+'C:/Users/romai/IdeaProjects/Final_Project/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2024 <a href="https://www.hi.is">University of Iceland</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/romai/IdeaProjects/Final_Project/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'finalproject 1.0-SNAPSHOT Test API'
+-nohelp
+-use
+-version
+-windowtitle
+'finalproject 1.0-SNAPSHOT Test API'
+is.hi.rbd3.hbv202g.finalproject
+C:\Users\romai\IdeaProjects\Final_Project\src\test\java = 1711377000111
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\allclasses-index.html = 1711465058739
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\allpackages-index.html = 1711465058742
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\copy.svg = 1711465058766
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\element-list = 1711465058684
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\index-all.html = 1711465058757
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\index.html = 1711465058761
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\link.svg = 1711465058768
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\member-search-index.js = 1711465058745
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\module-search-index.js = 1711465058743
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\overview-tree.html = 1711465058722
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\package-search-index.js = 1711465058744
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\script.js = 1711465058765
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\search-page.js = 1711465058772
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\search.html = 1711465058759
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\search.js = 1711465058770
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\stylesheet.css = 1711465058764
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\tag-search-index.js = 1711465058746
+C:\Users\romai\IdeaProjects\Final_Project\target\site\testapidocs\type-search-index.js = 1711465058744
